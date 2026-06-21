@@ -1,0 +1,2315 @@
+{
+  "catalogVersion": 1,
+  "updatedAt": "2026-06-21T12:00:00+09:00",
+  "developer": {
+    "name": "ookura",
+    "bio": {
+      "ja": "ニッチで実用的なアプリを量産している個人開発者。ゲームからトラッカー、図鑑まで。",
+      "en": "An indie developer shipping niche, practical apps — from games to trackers and collections."
+    },
+    "links": {
+      "web": "https://ookura0516.github.io"
+    }
+  },
+  "categories": [
+    {
+      "id": "game",
+      "name": {
+        "ja": "ゲーム",
+        "en": "Games"
+      }
+    },
+    {
+      "id": "tracker",
+      "name": {
+        "ja": "記録・トラッカー",
+        "en": "Trackers"
+      }
+    },
+    {
+      "id": "collection",
+      "name": {
+        "ja": "コレクション",
+        "en": "Collections"
+      }
+    },
+    {
+      "id": "lifestyle",
+      "name": {
+        "ja": "ライフスタイル",
+        "en": "Lifestyle"
+      }
+    },
+    {
+      "id": "productivity",
+      "name": {
+        "ja": "ツール・効率化",
+        "en": "Tools"
+      }
+    }
+  ],
+  "apps": [
+    {
+      "id": "veil",
+      "name": {
+        "ja": "Veil of the Ancient Ones",
+        "en": "Veil of the Ancient Ones"
+      },
+      "subtitle": {
+        "ja": "協力型カード脱出",
+        "en": "Co-op card escape"
+      },
+      "description": {
+        "ja": "クトゥルフ神話風のカードドリブン協力脱出ゲーム。調査員6名と運命デッキで判定し、3つの印を集めて脱出する純Dart決定論エンジン。",
+        "en": "A Lovecraftian card-driven co-op escape game. Investigate with six characters, resolve a fate deck, and collect three sigils to escape."
+      },
+      "categoryId": "game",
+      "store": {
+        "android": "https://play.google.com/store/apps/details?id=com.ookura.veil"
+      },
+      "tags": [
+        "card",
+        "co-op",
+        "escape",
+        "horror"
+      ],
+      "isFeatured": true,
+      "isNew": false,
+      "sortOrder": 10,
+      "iconUrl": "",
+      "screenshots": []
+    },
+    {
+      "id": "faceless-alice",
+      "name": {
+        "ja": "顔のないアリス",
+        "en": "Faceless Alice"
+      },
+      "subtitle": {
+        "ja": "協力型タイル復元パズル",
+        "en": "Co-op tile puzzle"
+      },
+      "description": {
+        "ja": "自分の手が見えない協力型タイル復元パズル。相棒AIのヒントを頼りに5つの特徴を重ねて顔を復元する。",
+        "en": "A co-op tile-restoration puzzle where you can't see your own hand. Rely on an AI partner's hints to rebuild a face from five features."
+      },
+      "categoryId": "game",
+      "store": {
+        "android": "https://play.google.com/store/apps/details?id=com.ookura.facelessalice"
+      },
+      "tags": [
+        "puzzle",
+        "co-op",
+        "tiles"
+      ],
+      "isFeatured": true,
+      "isNew": false,
+      "sortOrder": 20,
+      "iconUrl": "",
+      "screenshots": []
+    },
+    {
+      "id": "blackwhitehouse",
+      "name": {
+        "ja": "ブラックホワイトハウス",
+        "en": "BlackWhiteHouse"
+      },
+      "subtitle": {
+        "ja": "投票推理・正体隠匿",
+        "en": "Social deduction"
+      },
+      "description": {
+        "ja": "情報非対称の投票推理ゲーム。改革派と独裁派に分かれ、ブラフAIを相手に法案を巡って駆け引きする。",
+        "en": "A hidden-role voting deduction game. Reformists vs. autocrats bluff and vote against AI opponents."
+      },
+      "categoryId": "game",
+      "store": {
+        "android": "https://play.google.com/store/apps/details?id=com.ookura.blackwhitehouse",
+        "ios": "https://apps.apple.com/app/id6782386684"
+      },
+      "version": "1.0.0",
+      "tags": [
+        "deduction",
+        "voting",
+        "bluff"
+      ],
+      "isFeatured": true,
+      "isNew": false,
+      "sortOrder": 30,
+      "iconUrl": "",
+      "screenshots": []
+    },
+    {
+      "id": "deckrogue",
+      "name": {
+        "ja": "デックローグ",
+        "en": "DeckRogue"
+      },
+      "subtitle": {
+        "ja": "デッキ構築ローグライク",
+        "en": "Deckbuilding roguelike"
+      },
+      "description": {
+        "ja": "オリジナルのデッキ構築ローグライク。60枚×3クラス×5フロアを完全オフラインで攻略する買い切りゲーム。",
+        "en": "An original deckbuilding roguelike. Conquer five floors across three classes with 60 cards, fully offline."
+      },
+      "categoryId": "game",
+      "store": {
+        "android": "https://play.google.com/store/apps/details?id=com.ookura.deckrogue",
+        "ios": "https://apps.apple.com/app/id6782571122"
+      },
+      "tags": [
+        "roguelike",
+        "deckbuilding",
+        "offline"
+      ],
+      "isFeatured": true,
+      "isNew": false,
+      "sortOrder": 40,
+      "iconUrl": "",
+      "screenshots": []
+    },
+    {
+      "id": "chromacharge",
+      "name": {
+        "ja": "クロマチャージ",
+        "en": "ChromaCharge"
+      },
+      "subtitle": {
+        "ja": "オフライン対AIのTCG",
+        "en": "Offline TCG vs AI"
+      },
+      "description": {
+        "ja": "6色チャージで育成するオフライン対AIデジタルTCG。64枚の完全オリジナルカードで戦う純Dart決定論エンジン。",
+        "en": "An offline digital TCG vs AI built on six-color charging. Battle with 64 fully original cards on a deterministic Dart engine."
+      },
+      "categoryId": "game",
+      "store": {
+        "android": "https://play.google.com/store/apps/details?id=com.ookura.chromacharge",
+        "ios": "https://apps.apple.com/app/id6782375698"
+      },
+      "version": "1.0.0",
+      "tags": [
+        "tcg",
+        "card",
+        "ai",
+        "offline"
+      ],
+      "isFeatured": true,
+      "isNew": true,
+      "sortOrder": 50,
+      "iconUrl": "",
+      "screenshots": []
+    },
+    {
+      "id": "mancala",
+      "name": {
+        "ja": "マンカラ",
+        "en": "Mancala"
+      },
+      "subtitle": {
+        "ja": "Kalah/Oware＋AI",
+        "en": "Kalah/Oware + AI"
+      },
+      "description": {
+        "ja": "KalahとOwareを収録したアブストラクト対戦。αβ法CPUと世界中で楽しめるテキスト最小設計。",
+        "en": "An abstract strategy game with Kalah and Oware modes, alpha-beta CPU, and a text-light global design."
+      },
+      "categoryId": "game",
+      "store": {
+        "android": "https://play.google.com/store/apps/details?id=com.ookura.mancala",
+        "ios": "https://apps.apple.com/app/id6782233006"
+      },
+      "tags": [
+        "abstract",
+        "board",
+        "ai"
+      ],
+      "isFeatured": true,
+      "isNew": false,
+      "sortOrder": 60,
+      "iconUrl": "",
+      "screenshots": []
+    },
+    {
+      "id": "yobu",
+      "name": {
+        "ja": "YOBU",
+        "en": "YOBU"
+      },
+      "subtitle": {
+        "ja": "言葉あてパーティ",
+        "en": "Word party game"
+      },
+      "description": {
+        "ja": "1台回しで3〜6人が遊ぶ言葉あて正体隠匿パーティゲーム。お題はJSON管理でカスタム追加もできる。",
+        "en": "A pass-and-play word-guessing hidden-role party game for 3-6 players, with JSON topics and custom decks."
+      },
+      "categoryId": "game",
+      "store": {
+        "android": "https://play.google.com/store/apps/details?id=com.ookura.yobu",
+        "ios": "https://apps.apple.com/app/id6782579007"
+      },
+      "tags": [
+        "party",
+        "word",
+        "deduction"
+      ],
+      "isFeatured": true,
+      "isNew": false,
+      "sortOrder": 70,
+      "iconUrl": "",
+      "screenshots": []
+    },
+    {
+      "id": "soiree",
+      "name": {
+        "ja": "最期のソワレ",
+        "en": "Last Soiree"
+      },
+      "subtitle": {
+        "ja": "封印入札の役競り",
+        "en": "Sealed-bid role auction"
+      },
+      "description": {
+        "ja": "封印入札と役選択、エンジンビルドを組み合わせた競りゲーム。全フェーズ検証済みのオリジナル設計。",
+        "en": "A bidding game blending sealed-bid auctions, role selection, and engine-building. Fully validated original design."
+      },
+      "categoryId": "game",
+      "store": {
+        "android": "https://play.google.com/store/apps/details?id=com.ookura.soiree"
+      },
+      "tags": [
+        "auction",
+        "strategy",
+        "bidding"
+      ],
+      "isFeatured": true,
+      "isNew": false,
+      "sortOrder": 80,
+      "iconUrl": "",
+      "screenshots": []
+    },
+    {
+      "id": "dopagaki",
+      "name": {
+        "ja": "ドパガキ",
+        "en": "Dopagaki"
+      },
+      "subtitle": {
+        "ja": "日替わり演出コレクション",
+        "en": "Daily generative art"
+      },
+      "description": {
+        "ja": "日替わりで手続き生成される演出とコレクション。CustomPainterと自作合成音、触覚で楽しむオフライン体験。",
+        "en": "Daily procedurally generated visuals and a collection to fill. Offline experience with CustomPainter art, synthesized sound, and haptics."
+      },
+      "categoryId": "game",
+      "store": {
+        "android": "https://play.google.com/store/apps/details?id=com.ookura.dopagaki"
+      },
+      "tags": [
+        "generative",
+        "daily",
+        "collection"
+      ],
+      "isFeatured": false,
+      "isNew": false,
+      "sortOrder": 90,
+      "iconUrl": "",
+      "screenshots": []
+    },
+    {
+      "id": "xi-dice",
+      "name": {
+        "ja": "ゾロメ",
+        "en": "Zorome"
+      },
+      "subtitle": {
+        "ja": "出目を奪うダイス",
+        "en": "Devil Dice game"
+      },
+      "description": {
+        "ja": "Devil Dice系のダイスアクション「ゾロメ」。出目を揃えて消すリリース準備済みのパズルゲーム。",
+        "en": "A Devil Dice-style action puzzler. Match and clear dice faces in this release-ready game."
+      },
+      "categoryId": "game",
+      "store": {
+        "android": "https://play.google.com/store/apps/details?id=com.ookura.zorome"
+      },
+      "tags": [
+        "dice",
+        "puzzle",
+        "action"
+      ],
+      "isFeatured": false,
+      "isNew": false,
+      "sortOrder": 100,
+      "iconUrl": "",
+      "screenshots": []
+    },
+    {
+      "id": "hikyaku",
+      "name": {
+        "ja": "飛脚",
+        "en": "Hikyaku"
+      },
+      "subtitle": {
+        "ja": "二人零和の壁ゲーム",
+        "en": "Quoridor-like duel"
+      },
+      "description": {
+        "ja": "Quoridor系の二人零和アブストラクト。αβ法AIを相手に壁で道を塞ぎゴールを目指す。",
+        "en": "A Quoridor-style two-player zero-sum abstract game. Block paths with walls and race to the goal against an alpha-beta AI."
+      },
+      "categoryId": "game",
+      "store": {
+        "android": "https://play.google.com/store/apps/details?id=com.ookura.hikyaku"
+      },
+      "tags": [
+        "abstract",
+        "board",
+        "ai"
+      ],
+      "isFeatured": false,
+      "isNew": false,
+      "sortOrder": 110,
+      "iconUrl": "",
+      "screenshots": []
+    },
+    {
+      "id": "emaki",
+      "name": {
+        "ja": "絵巻",
+        "en": "Emaki"
+      },
+      "subtitle": {
+        "ja": "和風の国づくり",
+        "en": "Map-drawing builder"
+      },
+      "description": {
+        "ja": "Cartographers系の和テーマ国づくりゲーム。デイリーシードで地形を描き点数を競う。",
+        "en": "A Cartographers-style Japanese-themed map-drawing game with daily seeds for competitive scoring."
+      },
+      "categoryId": "game",
+      "store": {
+        "android": "https://play.google.com/store/apps/details?id=com.ookura.emaki"
+      },
+      "tags": [
+        "map",
+        "daily",
+        "strategy"
+      ],
+      "isFeatured": false,
+      "isNew": false,
+      "sortOrder": 120,
+      "iconUrl": "",
+      "screenshots": []
+    },
+    {
+      "id": "kashigoyomi",
+      "name": {
+        "ja": "菓子暦",
+        "en": "Kashigoyomi"
+      },
+      "subtitle": {
+        "ja": "和菓子ドラフト",
+        "en": "Wagashi drafting"
+      },
+      "description": {
+        "ja": "Azul系の和菓子ドラフトゲーム。3段階のCPUを相手にタイルを集めて美しく並べる。",
+        "en": "An Azul-style wagashi tile-drafting game with three CPU difficulty levels."
+      },
+      "categoryId": "game",
+      "store": {
+        "android": "https://play.google.com/store/apps/details?id=com.ookura.kashigoyomi"
+      },
+      "tags": [
+        "abstract",
+        "drafting",
+        "ai"
+      ],
+      "isFeatured": false,
+      "isNew": false,
+      "sortOrder": 130,
+      "iconUrl": "",
+      "screenshots": []
+    },
+    {
+      "id": "kasane",
+      "name": {
+        "ja": "カサネ",
+        "en": "Kasane"
+      },
+      "subtitle": {
+        "ja": "駒積みアブストラクト",
+        "en": "Stacking abstract"
+      },
+      "description": {
+        "ja": "軍儀に着想を得たオリジナルの駒積みアブストラクト。CPU対戦で立体的な布陣を競う。",
+        "en": "An original piece-stacking abstract game inspired by Gungi, with CPU play."
+      },
+      "categoryId": "game",
+      "store": {
+        "android": "https://play.google.com/store/apps/details?id=com.ookura.kasane"
+      },
+      "tags": [
+        "abstract",
+        "board",
+        "ai"
+      ],
+      "isFeatured": false,
+      "isNew": false,
+      "sortOrder": 140,
+      "iconUrl": "",
+      "screenshots": []
+    },
+    {
+      "id": "komamusubi",
+      "name": {
+        "ja": "こまむすび",
+        "en": "Komamusubi"
+      },
+      "subtitle": {
+        "ja": "連結アブストラクト",
+        "en": "Connection abstract"
+      },
+      "description": {
+        "ja": "連結と詰めパズルを組み合わせたアブストラクト。negamaxのCPUを相手に駒を結んでいく。",
+        "en": "A connection-based abstract puzzle game with a negamax CPU."
+      },
+      "categoryId": "game",
+      "store": {
+        "android": "https://play.google.com/store/apps/details?id=com.ookura.komamusubi"
+      },
+      "tags": [
+        "abstract",
+        "puzzle",
+        "ai"
+      ],
+      "isFeatured": false,
+      "isNew": true,
+      "sortOrder": 150,
+      "iconUrl": "",
+      "screenshots": []
+    },
+    {
+      "id": "mawasobi",
+      "name": {
+        "ja": "マワソビ",
+        "en": "Mawasobi"
+      },
+      "subtitle": {
+        "ja": "パーティーゲーム集",
+        "en": "Party game pack"
+      },
+      "description": {
+        "ja": "パス＆プレイのパーティーゲーム集。買い切りProで複数のミニゲームをまとめて楽しめる。",
+        "en": "A pass-and-play party game collection bundling several mini-games with a one-time Pro unlock."
+      },
+      "categoryId": "game",
+      "store": {
+        "android": "https://play.google.com/store/apps/details?id=com.ookura.mawasobi"
+      },
+      "tags": [
+        "party",
+        "minigames",
+        "local"
+      ],
+      "isFeatured": false,
+      "isNew": false,
+      "sortOrder": 160,
+      "iconUrl": "",
+      "screenshots": []
+    },
+    {
+      "id": "mexicantrain",
+      "name": {
+        "ja": "メキシカン・トレイン",
+        "en": "Mexican Train"
+      },
+      "subtitle": {
+        "ja": "ドミノCPU対戦",
+        "en": "Domino vs CPU"
+      },
+      "description": {
+        "ja": "定番ドミノ「メキシカン・トレイン」のCPU対戦版。気軽に遊べるオフライン対局。",
+        "en": "The classic Mexican Train domino game with CPU opponents, playable offline."
+      },
+      "categoryId": "game",
+      "store": {
+        "android": "https://play.google.com/store/apps/details?id=com.ookura.mexicantrain"
+      },
+      "tags": [
+        "domino",
+        "board",
+        "ai"
+      ],
+      "isFeatured": false,
+      "isNew": false,
+      "sortOrder": 170,
+      "iconUrl": "",
+      "screenshots": []
+    },
+    {
+      "id": "kyou-no-itte",
+      "name": {
+        "ja": "今日の一手",
+        "en": "Kyou no Itte"
+      },
+      "subtitle": {
+        "ja": "詰将棋・詰碁デイリー",
+        "en": "Daily shogi/go puzzles"
+      },
+      "description": {
+        "ja": "毎日挑戦できる詰将棋・詰碁のデイリーパズル。サブスクで全問解放。",
+        "en": "Daily tsume-shogi and tsume-go puzzles, with a subscription to unlock everything."
+      },
+      "categoryId": "game",
+      "store": {
+        "android": "https://play.google.com/store/apps/details?id=com.ookura.kyou_no_itte"
+      },
+      "tags": [
+        "shogi",
+        "go",
+        "daily"
+      ],
+      "isFeatured": false,
+      "isNew": false,
+      "sortOrder": 180,
+      "iconUrl": "",
+      "screenshots": []
+    },
+    {
+      "id": "dememe",
+      "name": {
+        "ja": "出目目",
+        "en": "DEMEME"
+      },
+      "subtitle": {
+        "ja": "スロット出目チェッカー",
+        "en": "Slot reel checker"
+      },
+      "description": {
+        "ja": "スロットの出目をチェックする17+向けツール系ゲーム。出目の確認と記録を手早く行える。",
+        "en": "A 17+ slot reel checker tool. Quickly verify and log slot outcomes."
+      },
+      "categoryId": "game",
+      "store": {
+        "android": "https://play.google.com/store/apps/details?id=com.ookura.dememe"
+      },
+      "tags": [
+        "slot",
+        "tool",
+        "17plus"
+      ],
+      "isFeatured": false,
+      "isNew": false,
+      "sortOrder": 190,
+      "iconUrl": "",
+      "screenshots": []
+    },
+    {
+      "id": "pentachroma",
+      "name": {
+        "ja": "PENTACHROMA",
+        "en": "Pentachroma"
+      },
+      "subtitle": {
+        "ja": "霊獣カード収集＆対戦",
+        "en": "Beast TCG vs CPU"
+      },
+      "description": {
+        "ja": "自作TCGの霊獣カードを収集してCPUと対戦。日英対応のオリジナルカードゲーム。",
+        "en": "Collect spirit-beast cards and battle the CPU in this original bilingual TCG."
+      },
+      "categoryId": "game",
+      "store": {
+        "android": "https://play.google.com/store/apps/details?id=com.ookura.pentachroma"
+      },
+      "tags": [
+        "tcg",
+        "collection",
+        "ai"
+      ],
+      "isFeatured": false,
+      "isNew": false,
+      "sortOrder": 200,
+      "iconUrl": "",
+      "screenshots": []
+    },
+    {
+      "id": "surobako",
+      "name": {
+        "ja": "スロ箱",
+        "en": "Surobako"
+      },
+      "subtitle": {
+        "ja": "架空パチスロ放置",
+        "en": "Fictional slot idle"
+      },
+      "description": {
+        "ja": "換金なしの架空パチスロ放置×ガチャゲーム。JOGA準拠で気軽に出目を楽しむ。",
+        "en": "A no-cash-out fictional pachislot idle and gacha game, JOGA-compliant."
+      },
+      "categoryId": "game",
+      "store": {
+        "android": "https://play.google.com/store/apps/details?id=com.ookura.surobako"
+      },
+      "tags": [
+        "idle",
+        "gacha",
+        "slot"
+      ],
+      "isFeatured": false,
+      "isNew": false,
+      "sortOrder": 210,
+      "iconUrl": "",
+      "screenshots": []
+    },
+    {
+      "id": "nazonote",
+      "name": {
+        "ja": "ナゾノート",
+        "en": "Nazonote"
+      },
+      "subtitle": {
+        "ja": "謎解き投稿UGC",
+        "en": "Riddle UGC"
+      },
+      "description": {
+        "ja": "謎解きを投稿・共有できるUGCアプリ。公式45問に加えユーザー作成の謎も楽しめる。",
+        "en": "A UGC riddle app for posting and sharing puzzles, with 45 official riddles plus user-made ones."
+      },
+      "categoryId": "game",
+      "store": {
+        "android": "https://play.google.com/store/apps/details?id=com.ookura.nazonote"
+      },
+      "tags": [
+        "riddle",
+        "ugc",
+        "puzzle"
+      ],
+      "isFeatured": false,
+      "isNew": false,
+      "sortOrder": 220,
+      "iconUrl": "",
+      "screenshots": []
+    },
+    {
+      "id": "nazomichi",
+      "name": {
+        "ja": "ナゾミチ",
+        "en": "Nazomichi"
+      },
+      "subtitle": {
+        "ja": "GPS街歩き謎解き",
+        "en": "GPS walking riddles"
+      },
+      "description": {
+        "ja": "GPSを使った街歩き謎解きゲーム。DistanceRadarでMaps課金を回避したオフライン寄り設計。",
+        "en": "A GPS street-walking riddle game using a DistanceRadar to avoid Maps billing."
+      },
+      "categoryId": "game",
+      "store": {
+        "android": "https://play.google.com/store/apps/details?id=com.ookura.nazomichi"
+      },
+      "tags": [
+        "gps",
+        "riddle",
+        "walking"
+      ],
+      "isFeatured": false,
+      "isNew": false,
+      "sortOrder": 230,
+      "iconUrl": "",
+      "screenshots": []
+    },
+    {
+      "id": "kiatsu-battle",
+      "name": {
+        "ja": "気圧バトル",
+        "en": "Kiatsu Battle"
+      },
+      "subtitle": {
+        "ja": "気象病協力ボス戦",
+        "en": "Weather-illness boss raid"
+      },
+      "description": {
+        "ja": "気圧の変化をボスに見立てた気象病協力バトル。みんなで体調変化に立ち向かう。",
+        "en": "A co-op boss battle themed around barometric pressure and weather-related ailments."
+      },
+      "categoryId": "game",
+      "store": {
+        "android": "https://play.google.com/store/apps/details?id=com.ookura.kiatsu_battle"
+      },
+      "tags": [
+        "co-op",
+        "weather",
+        "boss"
+      ],
+      "isFeatured": false,
+      "isNew": false,
+      "sortOrder": 240,
+      "iconUrl": "",
+      "screenshots": []
+    },
+    {
+      "id": "kohaku",
+      "name": {
+        "ja": "コハク色の放課後",
+        "en": "Amber Afterschool"
+      },
+      "subtitle": {
+        "ja": "短編ビジュアルノベル",
+        "en": "Short visual novel"
+      },
+      "description": {
+        "ja": "データ駆動エンジンで作られた短編ビジュアルノベル。アートは全て自作の青春ストーリー。",
+        "en": "A short data-driven visual novel with fully original art, telling a coming-of-age story."
+      },
+      "categoryId": "game",
+      "store": {
+        "android": "https://play.google.com/store/apps/details?id=com.ookura.kohaku"
+      },
+      "tags": [
+        "vn",
+        "story",
+        "art"
+      ],
+      "isFeatured": false,
+      "isNew": false,
+      "sortOrder": 260,
+      "iconUrl": "",
+      "screenshots": []
+    },
+    {
+      "id": "furimukanaide",
+      "name": {
+        "ja": "ふりむかないで",
+        "en": "Don't Look Back"
+      },
+      "subtitle": {
+        "ja": "J-ホラー短編VN",
+        "en": "J-horror short VN"
+      },
+      "description": {
+        "ja": "J-ホラーテーマの短編ビジュアルノベル。コハクと同一エンジンで描く恐怖の物語。",
+        "en": "A J-horror short visual novel built on the same engine as Amber Afterschool."
+      },
+      "categoryId": "game",
+      "store": {
+        "android": "https://play.google.com/store/apps/details?id=com.ookura.furimukanaide"
+      },
+      "tags": [
+        "vn",
+        "horror",
+        "story"
+      ],
+      "isFeatured": false,
+      "isNew": false,
+      "sortOrder": 270,
+      "iconUrl": "",
+      "screenshots": []
+    },
+    {
+      "id": "hanashi",
+      "name": {
+        "ja": "噺",
+        "en": "Hanashi"
+      },
+      "subtitle": {
+        "ja": "落語入門ガイド",
+        "en": "Rakugo primer"
+      },
+      "description": {
+        "ja": "落語をオフラインで翻案・解説する入門ガイド。演目を読んで親しむ和文化アプリ。",
+        "en": "An offline rakugo primer that adapts and explains classic stories for newcomers."
+      },
+      "categoryId": "game",
+      "store": {
+        "android": "https://play.google.com/store/apps/details?id=com.ookura.hanashi"
+      },
+      "tags": [
+        "rakugo",
+        "culture",
+        "story"
+      ],
+      "isFeatured": false,
+      "isNew": false,
+      "sortOrder": 280,
+      "iconUrl": "",
+      "screenshots": []
+    },
+    {
+      "id": "barelog",
+      "name": {
+        "ja": "バレログ",
+        "en": "Barelog"
+      },
+      "subtitle": {
+        "ja": "バレー推し活ログ",
+        "en": "Volleyball fan log"
+      },
+      "description": {
+        "ja": "バレーボールの推し選手を応援＆観戦記録するログアプリ。応援連打で熱量を可視化し推しカードを共有できる。",
+        "en": "Track and cheer for your favorite volleyball players. Visualize your passion and share player cards."
+      },
+      "categoryId": "tracker",
+      "store": {
+        "android": "https://play.google.com/store/apps/details?id=com.ookura.barelog"
+      },
+      "tags": [
+        "volleyball",
+        "fan",
+        "log"
+      ],
+      "isFeatured": false,
+      "isNew": false,
+      "sortOrder": 290,
+      "iconUrl": "",
+      "screenshots": []
+    },
+    {
+      "id": "nioi",
+      "name": {
+        "ja": "におい日記",
+        "en": "Nioi"
+      },
+      "subtitle": {
+        "ja": "匂いの記録",
+        "en": "Scent diary"
+      },
+      "description": {
+        "ja": "嗅覚に特化した匂い日記アプリ。日々出会った香りを言葉と一緒に記録する。",
+        "en": "A scent-focused diary app for logging the smells you encounter each day."
+      },
+      "categoryId": "tracker",
+      "store": {
+        "android": "https://play.google.com/store/apps/details?id=com.ookura.nioi",
+        "ios": "https://apps.apple.com/app/id6779624817"
+      },
+      "tags": [
+        "diary",
+        "scent",
+        "log"
+      ],
+      "isFeatured": false,
+      "isNew": false,
+      "sortOrder": 300,
+      "iconUrl": "",
+      "screenshots": []
+    },
+    {
+      "id": "pochitto",
+      "name": {
+        "ja": "ポチッと",
+        "en": "Pochitto"
+      },
+      "subtitle": {
+        "ja": "通知ボタンで習慣記録",
+        "en": "One-tap habit log"
+      },
+      "description": {
+        "ja": "通知のボタンだけで記録する習慣トラッカー。背景isolateでアプリ未起動でも記録できる。",
+        "en": "A habit tracker you log with a single notification button, recording even when the app isn't open."
+      },
+      "categoryId": "tracker",
+      "store": {
+        "android": "https://play.google.com/store/apps/details?id=com.ookura.pochitto"
+      },
+      "tags": [
+        "habit",
+        "notification",
+        "log"
+      ],
+      "isFeatured": false,
+      "isNew": false,
+      "sortOrder": 310,
+      "iconUrl": "",
+      "screenshots": []
+    },
+    {
+      "id": "komame",
+      "name": {
+        "ja": "こまめ",
+        "en": "Komame"
+      },
+      "subtitle": {
+        "ja": "水分記録トラッカー",
+        "en": "Hydration tracker"
+      },
+      "description": {
+        "ja": "こまめな水分補給を記録するトラッカー。日々の摂取量を手軽に管理してリテンションを高める。",
+        "en": "A hydration tracker for logging your daily water intake with ease."
+      },
+      "categoryId": "tracker",
+      "store": {
+        "android": "https://play.google.com/store/apps/details?id=com.ookura.komame"
+      },
+      "tags": [
+        "hydration",
+        "health",
+        "log"
+      ],
+      "isFeatured": false,
+      "isNew": false,
+      "sortOrder": 320,
+      "iconUrl": "",
+      "screenshots": []
+    },
+    {
+      "id": "oyasumi-routine",
+      "name": {
+        "ja": "おやすみルーティン",
+        "en": "Oyasumi Routine"
+      },
+      "subtitle": {
+        "ja": "就寝準備の記録",
+        "en": "Bedtime routine log"
+      },
+      "description": {
+        "ja": "就寝準備のルーティンを記録するアプリ。毎晩の習慣を整えてよい眠りへ導く。",
+        "en": "Log your bedtime preparation routine to build better sleep habits."
+      },
+      "categoryId": "tracker",
+      "store": {
+        "android": "https://play.google.com/store/apps/details?id=com.ookura.oyasumiroutine"
+      },
+      "tags": [
+        "sleep",
+        "routine",
+        "log"
+      ],
+      "isFeatured": false,
+      "isNew": false,
+      "sortOrder": 330,
+      "iconUrl": "",
+      "screenshots": []
+    },
+    {
+      "id": "filmlog",
+      "name": {
+        "ja": "フィルムログ",
+        "en": "FilmLog"
+      },
+      "subtitle": {
+        "ja": "フィルム撮影ログ",
+        "en": "Film photo log"
+      },
+      "description": {
+        "ja": "フィルムカメラの撮影ログと家計簿を兼ねたアプリ。各カットの設定や現像費を記録する。",
+        "en": "A film camera shooting log and expense tracker. Record settings per frame and developing costs."
+      },
+      "categoryId": "tracker",
+      "store": {
+        "android": "https://play.google.com/store/apps/details?id=com.ookura.filmlog"
+      },
+      "tags": [
+        "film",
+        "camera",
+        "log"
+      ],
+      "isFeatured": false,
+      "isNew": false,
+      "sortOrder": 340,
+      "iconUrl": "",
+      "screenshots": []
+    },
+    {
+      "id": "tsurilog",
+      "name": {
+        "ja": "ツリログ",
+        "en": "Tsurilog"
+      },
+      "subtitle": {
+        "ja": "釣果＆潮汐ログ",
+        "en": "Fishing & tide log"
+      },
+      "description": {
+        "ja": "釣果を潮汐や気象とともに記録するログアプリ。サブスクで釣行データを詳しく管理できる。",
+        "en": "Log your catches alongside tide and weather data, with a subscription for richer records."
+      },
+      "categoryId": "tracker",
+      "store": {
+        "android": "https://play.google.com/store/apps/details?id=com.ookura.tsurilog"
+      },
+      "tags": [
+        "fishing",
+        "tide",
+        "log"
+      ],
+      "isFeatured": false,
+      "isNew": false,
+      "sortOrder": 350,
+      "iconUrl": "",
+      "screenshots": []
+    },
+    {
+      "id": "yakimeshi-log",
+      "name": {
+        "ja": "やきめし記録",
+        "en": "Yakimeshi Log"
+      },
+      "subtitle": {
+        "ja": "自炊上達ログ",
+        "en": "Cooking practice log"
+      },
+      "description": {
+        "ja": "作った料理を記録して自炊の上達を追うログアプリ。無料で3品まで記録できる。",
+        "en": "Log the dishes you cook to track your home-cooking progress, free for up to three dishes."
+      },
+      "categoryId": "tracker",
+      "store": {
+        "android": "https://play.google.com/store/apps/details?id=com.ookura.yakimeshilog"
+      },
+      "tags": [
+        "cooking",
+        "food",
+        "log"
+      ],
+      "isFeatured": false,
+      "isNew": false,
+      "sortOrder": 360,
+      "iconUrl": "",
+      "screenshots": []
+    },
+    {
+      "id": "koenikki",
+      "name": {
+        "ja": "こえ日記",
+        "en": "Koenikki"
+      },
+      "subtitle": {
+        "ja": "音声で書く日記",
+        "en": "Voice diary"
+      },
+      "description": {
+        "ja": "端末側のSTTとオフラインAIで声から書く日記。話すだけで一日を振り返れるサブスクアプリ。",
+        "en": "A voice diary using on-device STT and offline AI. Reflect on your day just by speaking."
+      },
+      "categoryId": "tracker",
+      "store": {
+        "android": "https://play.google.com/store/apps/details?id=com.ookura.koenikki"
+      },
+      "tags": [
+        "diary",
+        "voice",
+        "ai"
+      ],
+      "isFeatured": false,
+      "isNew": false,
+      "sortOrder": 370,
+      "iconUrl": "",
+      "screenshots": []
+    },
+    {
+      "id": "touraku-note",
+      "name": {
+        "ja": "当落ノート",
+        "en": "Touraku Note"
+      },
+      "subtitle": {
+        "ja": "抽選トラッカー",
+        "en": "Lottery tracker"
+      },
+      "description": {
+        "ja": "チケットやグッズの抽選当落を記録するトラッカー。サブスクで応募履歴を一元管理できる。",
+        "en": "Track your wins and losses across ticket and goods lotteries, managed in one place."
+      },
+      "categoryId": "tracker",
+      "store": {
+        "android": "https://play.google.com/store/apps/details?id=com.ookura.tourakunote"
+      },
+      "tags": [
+        "lottery",
+        "fan",
+        "log"
+      ],
+      "isFeatured": false,
+      "isNew": false,
+      "sortOrder": 380,
+      "iconUrl": "",
+      "screenshots": []
+    },
+    {
+      "id": "hifumi",
+      "name": {
+        "ja": "ひふみ",
+        "en": "Hifumi"
+      },
+      "subtitle": {
+        "ja": "超短期メモ便",
+        "en": "Short-term memo"
+      },
+      "description": {
+        "ja": "1〜3日後の自分へ届ける超短期メモアプリ。すぐ消える前提で気軽に書き残せる。",
+        "en": "A super short-term memo app that delivers notes to your near-future self 1-3 days out."
+      },
+      "categoryId": "tracker",
+      "store": {
+        "android": "https://play.google.com/store/apps/details?id=com.ookura.hifumi"
+      },
+      "tags": [
+        "memo",
+        "reminder",
+        "note"
+      ],
+      "isFeatured": false,
+      "isNew": false,
+      "sortOrder": 390,
+      "iconUrl": "",
+      "screenshots": []
+    },
+    {
+      "id": "spot",
+      "name": {
+        "ja": "スポット",
+        "en": "Spot"
+      },
+      "subtitle": {
+        "ja": "定点観測タイムラプス",
+        "en": "Time-lapse tracker"
+      },
+      "description": {
+        "ja": "同じ場所を定点観測してBefore→Afterを記録するタイムラプスアプリ。変化を写真で振り返れる。",
+        "en": "A fixed-point observation app that captures before-and-after time-lapses of the same spot."
+      },
+      "categoryId": "tracker",
+      "store": {
+        "android": "https://play.google.com/store/apps/details?id=com.ookura.spot"
+      },
+      "tags": [
+        "timelapse",
+        "photo",
+        "log"
+      ],
+      "isFeatured": false,
+      "isNew": false,
+      "sortOrder": 400,
+      "iconUrl": "",
+      "screenshots": []
+    },
+    {
+      "id": "otomarker",
+      "name": {
+        "ja": "オトマーカー",
+        "en": "Otomarker"
+      },
+      "subtitle": {
+        "ja": "音の標本箱",
+        "en": "Sound specimen box"
+      },
+      "description": {
+        "ja": "録音した音を地図にピン留めして図鑑にする音の標本箱。街の音を集めて楽しむ。",
+        "en": "Record sounds, pin them on a map, and build a sound specimen catalog."
+      },
+      "categoryId": "collection",
+      "store": {
+        "android": "https://play.google.com/store/apps/details?id=com.ookura.otomarker"
+      },
+      "tags": [
+        "sound",
+        "map",
+        "collection"
+      ],
+      "isFeatured": false,
+      "isNew": false,
+      "sortOrder": 410,
+      "iconUrl": "",
+      "screenshots": []
+    },
+    {
+      "id": "maisora",
+      "name": {
+        "ja": "まいそら",
+        "en": "Maisora"
+      },
+      "subtitle": {
+        "ja": "毎日の空図鑑",
+        "en": "Daily sky album"
+      },
+      "description": {
+        "ja": "毎日の空を撮ってオンデバイスAIが判定する空図鑑。日々の空模様をコレクションできる。",
+        "en": "A daily sky album where on-device AI classifies your sky photos into a collection."
+      },
+      "categoryId": "collection",
+      "store": {
+        "android": "https://play.google.com/store/apps/details?id=com.ookura.maisora"
+      },
+      "tags": [
+        "sky",
+        "photo",
+        "ai"
+      ],
+      "isFeatured": false,
+      "isNew": false,
+      "sortOrder": 420,
+      "iconUrl": "",
+      "screenshots": []
+    },
+    {
+      "id": "flacon",
+      "name": {
+        "ja": "フラコン",
+        "en": "Flacon"
+      },
+      "subtitle": {
+        "ja": "香水コレクション管理",
+        "en": "Perfume collection"
+      },
+      "description": {
+        "ja": "手持ちの香水を管理するコレクションアプリ。射幸性と拡散を意識した香りのデータベース。",
+        "en": "Manage your perfume collection in a fragrance database designed for collectors."
+      },
+      "categoryId": "collection",
+      "store": {
+        "android": "https://play.google.com/store/apps/details?id=com.ookura.flacon"
+      },
+      "tags": [
+        "perfume",
+        "collection",
+        "database"
+      ],
+      "isFeatured": false,
+      "isNew": false,
+      "sortOrder": 430,
+      "iconUrl": "",
+      "screenshots": []
+    },
+    {
+      "id": "collebox",
+      "name": {
+        "ja": "コレボックス",
+        "en": "Collebox"
+      },
+      "subtitle": {
+        "ja": "ブラインドボックス収集",
+        "en": "Blind box tracker"
+      },
+      "description": {
+        "ja": "ブラインドボックスの収集を管理するトラッカー。ダブりや揃い具合を一目で把握できる。",
+        "en": "Track your blind box collection and see duplicates and completion at a glance."
+      },
+      "categoryId": "collection",
+      "store": {
+        "android": "https://play.google.com/store/apps/details?id=com.ookura.collebox"
+      },
+      "tags": [
+        "blindbox",
+        "collection",
+        "tracker"
+      ],
+      "isFeatured": false,
+      "isNew": false,
+      "sortOrder": 440,
+      "iconUrl": "",
+      "screenshots": []
+    },
+    {
+      "id": "tochimiyage",
+      "name": {
+        "ja": "トチミヤゲ",
+        "en": "Tochimiyage"
+      },
+      "subtitle": {
+        "ja": "ご当地お土産図鑑",
+        "en": "Local souvenir album"
+      },
+      "description": {
+        "ja": "旅先のご当地お土産を集める図鑑。旅行×収集×インバウンド向けの日英対応アプリ。",
+        "en": "A bilingual album for collecting regional souvenirs, blending travel and collection."
+      },
+      "categoryId": "collection",
+      "store": {
+        "android": "https://play.google.com/store/apps/details?id=com.ookura.tochimiyage"
+      },
+      "tags": [
+        "souvenir",
+        "travel",
+        "collection"
+      ],
+      "isFeatured": false,
+      "isNew": false,
+      "sortOrder": 450,
+      "iconUrl": "",
+      "screenshots": []
+    },
+    {
+      "id": "manholer",
+      "name": {
+        "ja": "マンホーラー",
+        "en": "Manholer"
+      },
+      "subtitle": {
+        "ja": "ご当地マンホール図鑑",
+        "en": "Manhole cover album"
+      },
+      "description": {
+        "ja": "全国のご当地マンホールを集める図鑑。47都道府県制覇を目指して撮り歩く。",
+        "en": "Collect regional manhole covers across Japan, aiming to conquer all 47 prefectures."
+      },
+      "categoryId": "collection",
+      "store": {
+        "android": "https://play.google.com/store/apps/details?id=com.ookura.manholer"
+      },
+      "tags": [
+        "manhole",
+        "travel",
+        "collection"
+      ],
+      "isFeatured": false,
+      "isNew": false,
+      "sortOrder": 460,
+      "iconUrl": "",
+      "screenshots": []
+    },
+    {
+      "id": "stampbook",
+      "name": {
+        "ja": "集印帳",
+        "en": "Stampbook"
+      },
+      "subtitle": {
+        "ja": "御朱印・駅スタンプ帳",
+        "en": "Stamp collection book"
+      },
+      "description": {
+        "ja": "御朱印や駅スタンプをデジタルで集める集印帳。日英対応で巡った記録を残せる。",
+        "en": "A digital stamp book for collecting goshuin and station stamps, bilingual."
+      },
+      "categoryId": "collection",
+      "store": {
+        "android": "https://play.google.com/store/apps/details?id=com.ookura.stampbook"
+      },
+      "tags": [
+        "stamp",
+        "travel",
+        "collection"
+      ],
+      "isFeatured": false,
+      "isNew": false,
+      "sortOrder": 470,
+      "iconUrl": "",
+      "screenshots": []
+    },
+    {
+      "id": "junkissa",
+      "name": {
+        "ja": "純喫茶パスポート",
+        "en": "Junkissa"
+      },
+      "subtitle": {
+        "ja": "純喫茶スタンプ帳",
+        "en": "Cafe passport"
+      },
+      "description": {
+        "ja": "訪れた純喫茶を記録するスタンプ帳アプリ。お気に入りの一軒を集めて拡散できる。",
+        "en": "A stamp-book app for logging the retro cafes you visit and sharing your favorites."
+      },
+      "categoryId": "collection",
+      "store": {
+        "android": "https://play.google.com/store/apps/details?id=com.ookura.junkissa",
+        "ios": "https://apps.apple.com/app/id6777878863"
+      },
+      "tags": [
+        "cafe",
+        "stamp",
+        "collection"
+      ],
+      "isFeatured": false,
+      "isNew": false,
+      "sortOrder": 480,
+      "iconUrl": "",
+      "screenshots": []
+    },
+    {
+      "id": "phralog",
+      "name": {
+        "ja": "PhraLog",
+        "en": "PhraLog"
+      },
+      "subtitle": {
+        "ja": "タイ仏教護符DB",
+        "en": "Thai amulet DB"
+      },
+      "description": {
+        "ja": "タイ仏教護符のコレクションと相場・真贋チェックができるデータベース。タイ語主体で英語も対応。",
+        "en": "A collection, market-price, and authenticity-check database for Thai Buddhist amulets."
+      },
+      "categoryId": "collection",
+      "store": {
+        "android": "https://play.google.com/store/apps/details?id=com.ookura.phralog"
+      },
+      "tags": [
+        "amulet",
+        "collection",
+        "database"
+      ],
+      "isFeatured": false,
+      "isNew": false,
+      "sortOrder": 490,
+      "iconUrl": "",
+      "screenshots": []
+    },
+    {
+      "id": "hachimori",
+      "name": {
+        "ja": "はちもり",
+        "en": "Hachimori"
+      },
+      "subtitle": {
+        "ja": "観葉植物の育成管理",
+        "en": "Houseplant care"
+      },
+      "description": {
+        "ja": "観葉植物の水やりを通知で管理する育成アプリ。日々の世話を記録して枯らさない。",
+        "en": "Manage houseplant watering with reminders and log daily care to keep them thriving."
+      },
+      "categoryId": "lifestyle",
+      "store": {
+        "android": "https://play.google.com/store/apps/details?id=com.ookura.hachimori"
+      },
+      "tags": [
+        "plants",
+        "care",
+        "reminder"
+      ],
+      "isFeatured": false,
+      "isNew": false,
+      "sortOrder": 500,
+      "iconUrl": "",
+      "screenshots": []
+    },
+    {
+      "id": "coton",
+      "name": {
+        "ja": "コトン",
+        "en": "Coton"
+      },
+      "subtitle": {
+        "ja": "洗濯ケア＆家事管理",
+        "en": "Laundry & chores"
+      },
+      "description": {
+        "ja": "洗濯ケアと家事を管理するアプリ。Load Optimizerでまとめ洗いを効率化する。",
+        "en": "A laundry care and chore manager with a Load Optimizer to batch your washing efficiently."
+      },
+      "categoryId": "lifestyle",
+      "store": {
+        "android": "https://play.google.com/store/apps/details?id=com.ookura.coton"
+      },
+      "tags": [
+        "laundry",
+        "chores",
+        "home"
+      ],
+      "isFeatured": false,
+      "isNew": false,
+      "sortOrder": 510,
+      "iconUrl": "",
+      "screenshots": []
+    },
+    {
+      "id": "fridgeflow",
+      "name": {
+        "ja": "冷蔵庫フロー",
+        "en": "FridgeFlow"
+      },
+      "subtitle": {
+        "ja": "冷蔵庫の在庫管理",
+        "en": "Fridge stock"
+      },
+      "description": {
+        "ja": "冷蔵庫のストックと消費を追跡するアプリ。賞味期限を管理して食品ロスを防ぐ。",
+        "en": "Track your fridge stock and consumption to manage expiry dates and cut food waste."
+      },
+      "categoryId": "lifestyle",
+      "store": {
+        "android": "https://play.google.com/store/apps/details?id=com.ookura.fridgeflow"
+      },
+      "tags": [
+        "fridge",
+        "food",
+        "stock"
+      ],
+      "isFeatured": false,
+      "isNew": false,
+      "sortOrder": 520,
+      "iconUrl": "",
+      "screenshots": []
+    },
+    {
+      "id": "oshibase",
+      "name": {
+        "ja": "推しベース",
+        "en": "OshiBase"
+      },
+      "subtitle": {
+        "ja": "推し活ダッシュボード",
+        "en": "Fan dashboard"
+      },
+      "description": {
+        "ja": "推し活を一元管理するダッシュボード。予定や支出をまとめて追えるサブスクアプリ。",
+        "en": "A dashboard to manage your fan activities, tracking schedules and spending in one place."
+      },
+      "categoryId": "lifestyle",
+      "store": {
+        "android": "https://play.google.com/store/apps/details?id=com.ookura.oshibase"
+      },
+      "tags": [
+        "fan",
+        "dashboard",
+        "schedule"
+      ],
+      "isFeatured": false,
+      "isNew": false,
+      "sortOrder": 530,
+      "iconUrl": "",
+      "screenshots": []
+    },
+    {
+      "id": "oshi-kakeibo",
+      "name": {
+        "ja": "推し活費用管理",
+        "en": "Oshi Kakeibo"
+      },
+      "subtitle": {
+        "ja": "推し活の家計簿",
+        "en": "Fan budget book"
+      },
+      "description": {
+        "ja": "推し活にかかる費用を管理する家計簿アプリ。出費を可視化して無理なく応援を続けられる。",
+        "en": "A budgeting app for tracking how much you spend supporting your faves."
+      },
+      "categoryId": "lifestyle",
+      "store": {
+        "android": "https://play.google.com/store/apps/details?id=com.ookura.oshikakeibo"
+      },
+      "tags": [
+        "fan",
+        "budget",
+        "expense"
+      ],
+      "isFeatured": false,
+      "isNew": false,
+      "sortOrder": 540,
+      "iconUrl": "",
+      "screenshots": []
+    },
+    {
+      "id": "yakousei",
+      "name": {
+        "ja": "夜行性",
+        "en": "Yakousei"
+      },
+      "subtitle": {
+        "ja": "夜だけ育つペット",
+        "en": "Nocturnal pet"
+      },
+      "description": {
+        "ja": "夜だけ育つペットを育成する癒し系アプリ。夜更かしのお供に少しずつ成長を楽しむ。",
+        "en": "Raise a pet that only grows at night, a soothing companion for your late hours."
+      },
+      "categoryId": "lifestyle",
+      "store": {
+        "android": "https://play.google.com/store/apps/details?id=com.ookura.yakousei"
+      },
+      "tags": [
+        "pet",
+        "nocturnal",
+        "raising"
+      ],
+      "isFeatured": false,
+      "isNew": false,
+      "sortOrder": 550,
+      "iconUrl": "",
+      "screenshots": []
+    },
+    {
+      "id": "kakine",
+      "name": {
+        "ja": "カキネ",
+        "en": "Kakine"
+      },
+      "subtitle": {
+        "ja": "近所の気になる場所",
+        "en": "Neighborhood spots"
+      },
+      "description": {
+        "ja": "近所の気になる場所を囲って記録する拡散型アプリ。穏やかな発見を楽しむcalm設計。",
+        "en": "Fence off and log the curious spots in your neighborhood, with a calm, shareable design."
+      },
+      "categoryId": "lifestyle",
+      "store": {
+        "android": "https://play.google.com/store/apps/details?id=com.ookura.kakine"
+      },
+      "tags": [
+        "map",
+        "neighborhood",
+        "spots"
+      ],
+      "isFeatured": false,
+      "isNew": false,
+      "sortOrder": 560,
+      "iconUrl": "",
+      "screenshots": []
+    },
+    {
+      "id": "riff",
+      "name": {
+        "ja": "リフ",
+        "en": "Riff"
+      },
+      "subtitle": {
+        "ja": "見る↔作るミーム",
+        "en": "Meme view & make"
+      },
+      "description": {
+        "ja": "ミームを見るのも作るのも楽しめるアプリ。気軽にネタを作って共有できる。",
+        "en": "A meme app for both browsing and making. Whip up jokes and share them easily."
+      },
+      "categoryId": "lifestyle",
+      "store": {
+        "android": "https://play.google.com/store/apps/details?id=com.ookura.riff"
+      },
+      "tags": [
+        "meme",
+        "social",
+        "create"
+      ],
+      "isFeatured": false,
+      "isNew": false,
+      "sortOrder": 570,
+      "iconUrl": "",
+      "screenshots": []
+    },
+    {
+      "id": "nyameme",
+      "name": {
+        "ja": "ニャミーム",
+        "en": "Nyameme"
+      },
+      "subtitle": {
+        "ja": "猫ミームメーカー",
+        "en": "Cat meme maker"
+      },
+      "description": {
+        "ja": "9:16動画の猫ミームを作るメーカー。MP4書き出しでSNSにそのまま投稿できる。",
+        "en": "A cat meme maker that exports 9:16 MP4 videos ready for social posting."
+      },
+      "categoryId": "lifestyle",
+      "store": {
+        "android": "https://play.google.com/store/apps/details?id=com.ookura.nyameme"
+      },
+      "tags": [
+        "meme",
+        "cat",
+        "video"
+      ],
+      "isFeatured": false,
+      "isNew": false,
+      "sortOrder": 580,
+      "iconUrl": "",
+      "screenshots": []
+    },
+    {
+      "id": "oyatomo",
+      "name": {
+        "ja": "おやとも",
+        "en": "Oyatomo"
+      },
+      "subtitle": {
+        "ja": "ゲーム見守り",
+        "en": "Parental game guide"
+      },
+      "description": {
+        "ja": "保護者向けに子どものゲーム利用を見守るアプリ。Robloxなど人気タイトルの情報を提供する。",
+        "en": "A parental app to monitor kids' gaming, with guidance on popular titles like Roblox."
+      },
+      "categoryId": "lifestyle",
+      "store": {
+        "android": "https://play.google.com/store/apps/details?id=com.ookura.oyatomo"
+      },
+      "tags": [
+        "parental",
+        "roblox",
+        "guide"
+      ],
+      "isFeatured": false,
+      "isNew": false,
+      "sortOrder": 590,
+      "iconUrl": "",
+      "screenshots": []
+    },
+    {
+      "id": "ohayou-button",
+      "name": {
+        "ja": "おはようボタン",
+        "en": "Ohayou Button"
+      },
+      "subtitle": {
+        "ja": "家族の安否確認",
+        "en": "Family check-in"
+      },
+      "description": {
+        "ja": "ボタンひとつで家族に安否を伝える確認アプリ。広告なしの家族向けサブスク。",
+        "en": "A one-button family check-in app to share that you're okay, ad-free with a family subscription."
+      },
+      "categoryId": "lifestyle",
+      "store": {
+        "android": "https://play.google.com/store/apps/details?id=com.ookura.ohayou_button"
+      },
+      "tags": [
+        "family",
+        "safety",
+        "checkin"
+      ],
+      "isFeatured": false,
+      "isNew": false,
+      "sortOrder": 600,
+      "iconUrl": "",
+      "screenshots": []
+    },
+    {
+      "id": "robpick",
+      "name": {
+        "ja": "ロブピック",
+        "en": "Robpick"
+      },
+      "subtitle": {
+        "ja": "Roblox日本語図鑑",
+        "en": "Roblox JP guide"
+      },
+      "description": {
+        "ja": "Robloxの人気ゲームを日本語でキュレーションする非公式図鑑。気になる作品を探せる。",
+        "en": "An unofficial Japanese-language curated guide to popular Roblox games."
+      },
+      "categoryId": "lifestyle",
+      "store": {
+        "android": "https://play.google.com/store/apps/details?id=com.ookura.robpick"
+      },
+      "tags": [
+        "roblox",
+        "guide",
+        "curation"
+      ],
+      "isFeatured": false,
+      "isNew": false,
+      "sortOrder": 610,
+      "iconUrl": "",
+      "screenshots": []
+    },
+    {
+      "id": "mirupa",
+      "name": {
+        "ja": "ミルパ",
+        "en": "Mirupa"
+      },
+      "subtitle": {
+        "ja": "YouTube動画キュレーション",
+        "en": "YouTube curation"
+      },
+      "description": {
+        "ja": "見たいYouTube動画をキュレーションして管理するアプリ。ROI重視でオフラインでも整理できる。",
+        "en": "Curate and organize the YouTube videos you want to watch, offline-friendly."
+      },
+      "categoryId": "lifestyle",
+      "store": {
+        "android": "https://play.google.com/store/apps/details?id=com.ookura.mirupa"
+      },
+      "version": "1.0.0",
+      "tags": [
+        "youtube",
+        "curation",
+        "video"
+      ],
+      "isFeatured": false,
+      "isNew": false,
+      "sortOrder": 620,
+      "iconUrl": "",
+      "screenshots": []
+    },
+    {
+      "id": "karoto",
+      "name": {
+        "ja": "カロート",
+        "en": "Karoto"
+      },
+      "subtitle": {
+        "ja": "写真ストレージ整理",
+        "en": "Photo cleanup"
+      },
+      "description": {
+        "ja": "類似・ブレ写真や大きな動画を見つけて一括削除する写真整理アプリ。買い切りで容量を取り戻す。",
+        "en": "Find similar, blurry photos and large videos to bulk-delete and reclaim storage, one-time purchase."
+      },
+      "categoryId": "productivity",
+      "store": {
+        "android": "https://play.google.com/store/apps/details?id=com.ookura.karoto"
+      },
+      "tags": [
+        "photo",
+        "cleanup",
+        "storage"
+      ],
+      "isFeatured": false,
+      "isNew": false,
+      "sortOrder": 630,
+      "iconUrl": "",
+      "screenshots": []
+    },
+    {
+      "id": "jisakumemo",
+      "name": {
+        "ja": "ジサクメモ",
+        "en": "Jisakumemo"
+      },
+      "subtitle": {
+        "ja": "自作PC構成メモ",
+        "en": "PC build memo"
+      },
+      "description": {
+        "ja": "自作PCの構成をメモして電源計算や共有ができるアプリ。QRやコードでサーバーレス共有。",
+        "en": "Memo your custom PC build, calculate power draw, and share via QR or code, serverless."
+      },
+      "categoryId": "productivity",
+      "store": {
+        "android": "https://play.google.com/store/apps/details?id=com.ookura.jisakumemo"
+      },
+      "tags": [
+        "pc",
+        "build",
+        "calculator"
+      ],
+      "isFeatured": false,
+      "isNew": false,
+      "sortOrder": 640,
+      "iconUrl": "",
+      "screenshots": []
+    },
+    {
+      "id": "hyakumemo",
+      "name": {
+        "ja": "ひゃくメモ",
+        "en": "Hyakumemo"
+      },
+      "subtitle": {
+        "ja": "百均買い物メモ",
+        "en": "100-yen shop memo"
+      },
+      "description": {
+        "ja": "百均の買い物メモと活用メモを管理するアプリ。Base64＋QRでサーバーレス共有できる。",
+        "en": "A shopping and usage memo app for 100-yen shops, with serverless sharing via Base64 and QR."
+      },
+      "categoryId": "productivity",
+      "store": {
+        "android": "https://play.google.com/store/apps/details?id=com.ookura.hyakumemo"
+      },
+      "tags": [
+        "memo",
+        "shopping",
+        "share"
+      ],
+      "isFeatured": false,
+      "isNew": false,
+      "sortOrder": 650,
+      "iconUrl": "",
+      "screenshots": []
+    },
+    {
+      "id": "loancalc",
+      "name": {
+        "ja": "住宅ローン計算",
+        "en": "LoanCalc"
+      },
+      "subtitle": {
+        "ja": "住宅ローン計算機",
+        "en": "Mortgage calculator"
+      },
+      "description": {
+        "ja": "住宅ローンの返済をシミュレーションする計算機。検索流入を狙ったシンプルな実用ツール。",
+        "en": "A mortgage calculator to simulate repayment plans, a simple practical tool."
+      },
+      "categoryId": "productivity",
+      "store": {
+        "android": "https://play.google.com/store/apps/details?id=com.ookura.loancalc"
+      },
+      "tags": [
+        "loan",
+        "calculator",
+        "finance"
+      ],
+      "isFeatured": false,
+      "isNew": false,
+      "sortOrder": 660,
+      "iconUrl": "",
+      "screenshots": []
+    },
+    {
+      "id": "kotsu-timer",
+      "name": {
+        "ja": "コツタイマー",
+        "en": "Kotsu Timer"
+      },
+      "subtitle": {
+        "ja": "勉強タイマー＆連続記録",
+        "en": "Study timer & streak"
+      },
+      "description": {
+        "ja": "勉強時間を測るタイマーと連続記録アプリ。コツコツ続けるモチベを保つ。",
+        "en": "A study timer with streak tracking to keep you motivated day after day."
+      },
+      "categoryId": "productivity",
+      "store": {
+        "android": "https://play.google.com/store/apps/details?id=com.ookura.kotsutimer"
+      },
+      "tags": [
+        "timer",
+        "study",
+        "streak"
+      ],
+      "isFeatured": false,
+      "isNew": false,
+      "sortOrder": 670,
+      "iconUrl": "",
+      "screenshots": []
+    },
+    {
+      "id": "tasbih-counter",
+      "name": {
+        "ja": "タスビーカウンター",
+        "en": "Tasbih Counter"
+      },
+      "subtitle": {
+        "ja": "多言語Dhikrカウンター",
+        "en": "Dhikr counter"
+      },
+      "description": {
+        "ja": "多言語対応のDhikr（ズィクル）カウンター。ムスリム市場向けのシンプルな数取りアプリ。",
+        "en": "A multilingual dhikr counter for the Muslim market, a simple tally app."
+      },
+      "categoryId": "productivity",
+      "store": {
+        "android": "https://play.google.com/store/apps/details?id=com.ookura.tasbih"
+      },
+      "tags": [
+        "counter",
+        "dhikr",
+        "muslim"
+      ],
+      "isFeatured": false,
+      "isNew": false,
+      "sortOrder": 680,
+      "iconUrl": "",
+      "screenshots": []
+    },
+    {
+      "id": "tieru",
+      "name": {
+        "ja": "ティアる",
+        "en": "Tieru"
+      },
+      "subtitle": {
+        "ja": "個人Tier表メーカー",
+        "en": "Tier list maker"
+      },
+      "description": {
+        "ja": "自分だけのTier表を作るメーカーアプリ。好きなものをランク付けして拡散できる。",
+        "en": "A personal tier-list maker. Rank your favorites and share the results."
+      },
+      "categoryId": "productivity",
+      "store": {
+        "android": "https://play.google.com/store/apps/details?id=com.ookura.tieru",
+        "ios": "https://apps.apple.com/app/id6778638354"
+      },
+      "tags": [
+        "tierlist",
+        "ranking",
+        "share"
+      ],
+      "isFeatured": false,
+      "isNew": false,
+      "sortOrder": 690,
+      "iconUrl": "",
+      "screenshots": []
+    },
+    {
+      "id": "mainazo",
+      "name": {
+        "ja": "まいなぞ",
+        "en": "Mainazo"
+      },
+      "subtitle": {
+        "ja": "毎日ひとつの謎解き",
+        "en": "Daily riddle"
+      },
+      "description": {
+        "ja": "毎日ひとつ謎解きに挑戦するWordle的なデイリーパズル。サブスクで過去問も解ける。",
+        "en": "A daily riddle in the spirit of Wordle, with a subscription to revisit past puzzles."
+      },
+      "categoryId": "productivity",
+      "store": {
+        "android": "https://play.google.com/store/apps/details?id=com.ookura.mainazo",
+        "ios": "https://apps.apple.com/app/id6780091484"
+      },
+      "tags": [
+        "riddle",
+        "daily",
+        "puzzle"
+      ],
+      "isFeatured": false,
+      "isNew": false,
+      "sortOrder": 700,
+      "iconUrl": "",
+      "screenshots": []
+    },
+    {
+      "id": "hoopbeat",
+      "name": {
+        "ja": "フープビート",
+        "en": "HoopBeat"
+      },
+      "subtitle": {
+        "ja": "バスケ速報＆スコア",
+        "en": "Basketball scores"
+      },
+      "description": {
+        "ja": "B1リーグのバスケ速報とスコアを追うアプリ。試合の結果を素早くチェックできる。",
+        "en": "Follow B1 League basketball scores and live updates, checking results at a glance."
+      },
+      "categoryId": "productivity",
+      "store": {
+        "android": "https://play.google.com/store/apps/details?id=com.ookura.hoopbeat",
+        "ios": "https://apps.apple.com/app/id6777915451"
+      },
+      "tags": [
+        "basketball",
+        "scores",
+        "sports"
+      ],
+      "isFeatured": false,
+      "isNew": false,
+      "sortOrder": 710,
+      "iconUrl": "",
+      "screenshots": []
+    },
+    {
+      "id": "valur",
+      "name": {
+        "ja": "VALUR",
+        "en": "VALUR"
+      },
+      "subtitle": {
+        "ja": "Roblox相場計算機",
+        "en": "Roblox trade calc"
+      },
+      "description": {
+        "ja": "Robloxの相場とトレードを計算する非公式ツール。価値を見積もって交換の判断を助ける。",
+        "en": "An unofficial Roblox market and trade calculator to estimate values and aid trading decisions."
+      },
+      "categoryId": "productivity",
+      "store": {
+        "android": "https://play.google.com/store/apps/details?id=com.ookura.valur"
+      },
+      "tags": [
+        "roblox",
+        "trade",
+        "calculator"
+      ],
+      "isFeatured": false,
+      "isNew": false,
+      "sortOrder": 720,
+      "iconUrl": "",
+      "screenshots": []
+    },
+    {
+      "id": "limitra",
+      "name": {
+        "ja": "リミトラ",
+        "en": "Limitra"
+      },
+      "subtitle": {
+        "ja": "Robloxリミテッド相場",
+        "en": "Roblox limited tracker"
+      },
+      "description": {
+        "ja": "Robloxリミテッドアイテムの相場を追う日本特化トラッカー。価格変動をチェックできる。",
+        "en": "A Japan-focused tracker for Roblox limited item prices and market trends."
+      },
+      "categoryId": "productivity",
+      "store": {
+        "android": "https://play.google.com/store/apps/details?id=com.ookura.limitra"
+      },
+      "tags": [
+        "roblox",
+        "market",
+        "tracker"
+      ],
+      "isFeatured": false,
+      "isNew": false,
+      "sortOrder": 730,
+      "iconUrl": "",
+      "screenshots": []
+    },
+    {
+      "id": "blomemo",
+      "name": {
+        "ja": "ブロメモ",
+        "en": "BloMemo"
+      },
+      "subtitle": {
+        "ja": "Roblox専用メモ",
+        "en": "Roblox memo"
+      },
+      "description": {
+        "ja": "Roblox専用のメモアプリ。買い切りProとバナー広告で攻略や設定を書き留められる。",
+        "en": "A Roblox-specific memo app for jotting strategies and settings, with one-time Pro."
+      },
+      "categoryId": "productivity",
+      "store": {
+        "android": "https://play.google.com/store/apps/details?id=com.ookura.blomemo"
+      },
+      "tags": [
+        "roblox",
+        "memo",
+        "note"
+      ],
+      "isFeatured": false,
+      "isNew": false,
+      "sortOrder": 740,
+      "iconUrl": "",
+      "screenshots": []
+    },
+    {
+      "id": "kuripane",
+      "name": {
+        "ja": "クリパネ",
+        "en": "Kuripane"
+      },
+      "subtitle": {
+        "ja": "Roblox運営ダッシュボード",
+        "en": "Roblox dev dashboard"
+      },
+      "description": {
+        "ja": "Roblox運営者向けのB2Bダッシュボード。公式APIで作品の指標を一覧管理する。",
+        "en": "A B2B dashboard for Roblox creators, using the official API to manage game metrics."
+      },
+      "categoryId": "productivity",
+      "store": {
+        "android": "https://play.google.com/store/apps/details?id=com.ookura.kuripane"
+      },
+      "tags": [
+        "roblox",
+        "dashboard",
+        "b2b"
+      ],
+      "isFeatured": false,
+      "isNew": false,
+      "sortOrder": 750,
+      "iconUrl": "",
+      "screenshots": []
+    },
+    {
+      "id": "tsugibasu",
+      "name": {
+        "ja": "ツギバス",
+        "en": "Tsugibasu"
+      },
+      "subtitle": {
+        "ja": "全国バス時刻表",
+        "en": "Bus timetable"
+      },
+      "description": {
+        "ja": "GTFS-JPを使った全国対応のオフラインバス時刻表。次のバスを手早く調べられる。",
+        "en": "A nationwide offline bus timetable built on GTFS-JP to find the next bus quickly."
+      },
+      "categoryId": "productivity",
+      "store": {
+        "android": "https://play.google.com/store/apps/details?id=com.ookura.tsugibasu"
+      },
+      "tags": [
+        "bus",
+        "timetable",
+        "offline"
+      ],
+      "isFeatured": false,
+      "isNew": false,
+      "sortOrder": 760,
+      "iconUrl": "",
+      "screenshots": []
+    },
+    {
+      "id": "kobore",
+      "name": {
+        "ja": "KOBORE",
+        "en": "KOBORE"
+      },
+      "subtitle": {
+        "ja": "音声で思考整理",
+        "en": "Voice-first capture"
+      },
+      "description": {
+        "ja": "話すだけでAIがToDo・買い物・アイデア・日記に自動仕分けする音声ファースト思考整理アプリ。",
+        "en": "A voice-first thought-organizer where AI auto-sorts what you say into to-dos, shopping, ideas, and diary entries."
+      },
+      "categoryId": "productivity",
+      "store": {
+        "android": "https://play.google.com/store/apps/details?id=com.ookura.kobore"
+      },
+      "tags": [
+        "voice",
+        "ai",
+        "notes"
+      ],
+      "isFeatured": false,
+      "isNew": false,
+      "sortOrder": 770,
+      "iconUrl": "",
+      "screenshots": []
+    }
+  ],
+  "news": [
+    {
+      "id": "n_welcome",
+      "type": "announce",
+      "title": {
+        "ja": "ミセルへようこそ",
+        "en": "Welcome to MISERU"
+      },
+      "body": {
+        "ja": "ookura のアプリをまるごと見渡せるアプリ棚です。気になるアプリを「所持・気になる・あとで」で整理しましょう。",
+        "en": "Your shelf for all of ookura's apps. Organize them as Owned, Wishlist or Later."
+      },
+      "publishedAt": "2026-06-21T12:00:00+09:00"
+    },
+    {
+      "id": "n_release_chromacharge",
+      "type": "release",
+      "title": {
+        "ja": "新作『クロマチャージ』",
+        "en": "New: ChromaCharge"
+      },
+      "body": {
+        "ja": "オフライン対AIのTCG",
+        "en": "Offline TCG vs AI"
+      },
+      "relatedAppId": "chromacharge",
+      "publishedAt": "2026-06-21T12:00:00+09:00"
+    },
+    {
+      "id": "n_release_komamusubi",
+      "type": "release",
+      "title": {
+        "ja": "新作『こまむすび』",
+        "en": "New: Komamusubi"
+      },
+      "body": {
+        "ja": "連結アブストラクト",
+        "en": "Connection abstract"
+      },
+      "relatedAppId": "komamusubi",
+      "publishedAt": "2026-06-21T12:00:00+09:00"
+    }
+  ]
+}
